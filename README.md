@@ -1,4 +1,4 @@
-# Fastapi Graphql Postgres SQLAlchemy Example tasks service
+# Fastapi Graphql SQLAlchemy Postgres Example tasks service
 
 ## Required software
 
