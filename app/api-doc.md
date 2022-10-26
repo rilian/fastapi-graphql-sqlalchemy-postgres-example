@@ -1,4 +1,4 @@
-# Fastapi Graphql Postgres Example tasks service documentation
+# Fastapi Graphql SQLAlchemy Postgres Example tasks service documentation
 
 ## auth_create_task
 
