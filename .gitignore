@@ -1,0 +1,14 @@
+.DS_Store
+.tmp
+*.log
+*.zip
+*.rej
+.idea
+*.swp
+
+node_modules
+.serverless
+.env*
+.aws-credentials.*
+.cloudfrontSignerPrivateKey.*
+!*.example

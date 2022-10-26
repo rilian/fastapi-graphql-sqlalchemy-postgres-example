@@ -1,0 +1,31 @@
+input AuthCreateTaskInput {
+  description: String
+}
+
+input CreateTaskInput {
+  description: String
+}
+
+type Task {
+  created_at: String
+  description: String
+  id: Int
+  updated_at: String
+  user_id: Int
+}
+
+# Query types available
+type Query {
+  get_task(id: Int!): Task
+}
+
+# Mutations to existing data.
+type Mutation {
+  auth_create_task(params: AuthCreateTaskInput!): Task
+  create_task(params: CreateTaskInput!): Task
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

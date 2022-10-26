@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mangum = "*"
+python-dotenv = "*"
+pip = "*"
+fastapi = "==0.68.2"
+ariadne = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+stripe = "*"
+boto3 = "*"
+pydash = "*"
+
+[dev-packages]
+uvicorn = "*"
+pylint = "*"
+pep8 = "*"
+mypy = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.9"
