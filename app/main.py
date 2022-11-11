@@ -50,7 +50,6 @@ def custom_error_formatter(error: GraphQLError, debug: bool = False) -> dict:
 async def graphql_playground():
     return PLAYGROUND_HTML
 
-@app.post("/auth")
 @app.post("/")
 async def graphql_server(request: Request, response: Response):
     # logger.warn(f"\ngraphql_server: request = {request.__dict__}")
